@@ -1,0 +1,12 @@
+[package]
+name = "xiao-stepper"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "xiao-stepper"
+path = "src/bin/main.rs"
+
+[dependencies]
+panic-halt = "0.2.0"
+xiao_m0 = { version = "0.12.0", features = ["unproven"] }
